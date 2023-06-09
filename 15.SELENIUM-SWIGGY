@@ -1,14 +1,33 @@
-package swiggy1;
-import org.openga. selenium. By;
-import org.openqa.selenium.WebDriver;
-import org.openga.selenium. WebElement;
-import org.openqa.selenium. chrome.Chrome Driver;
-public class loginpage {
-public static void main(String s[) {
-WebDriver driver = new ChromeDriver0; System.setProperty("webdriver.chrome.driver","C://chromedriver.exe"); driver. get("https://www.swiggy.com/?utm source Google-
-Sok&utmmedium CPC&utmcampaign=perffoodn ugooglesearchs o kn a r mbrandv 1 v2 march23 brand em&gclid CiwKCAjwYKjBhB5EiwAiFdSfrdLVA- UKWyVK60DxCwxHLKmh310fjK9ya mDXHMfbNSWaws1oQUvhoCNFsQAvD BwE");
-WebElement textBox = driver.findElement(By.className("×4bK8"));
-drivermanage().window().maximize(); 
-textBox.click();
-}
+package sellinium1;
+ 
+	import org.openqa.selenium.By;
+	import org.openqa.selenium.WebDriver;
+	import org.openqa.selenium.WebElement;
+	import org.openqa.selenium.chrome.ChromeDriver;
+	//import org.testng.Assert;
+	//import org.testng.annotations.Test;
+ 
+
+
+	public class s4 {
+
+		public static void main(String[] args) {
+			
+			
+			System.out.println("hai");
+			System.setProperty("webdriver.chrome.driver","C:\\selenium jar\\chromedriver_win32\\chromedriver.exe");
+			WebDriver driver = new ChromeDriver();
+			//driver.get("https://www.google.com/");
+		 
+							
+			driver.get("https://www.swiggy.com/?utm_source=Google-Sok&utm_medium=CPC&utm_campaign=perf_food_nu_google_search_sok_narm_brand_v1_v2_march23_brand_em&gclid=CjwKCAjwgqejBhBAEiwAuWHioBLJwTQ5az0lGQqlahfQyyIrzOwnPAh3mwJTFlXICBX1I4MrUBNT_xoCakwQAvD_BwE");
+			 
+		 
+		
+			WebElement textBox=driver.findElement(By.name(" x4bK8"));
+			driver.manage().window().maximize();
+			 textBox.click();
+
+		}
+
 }
